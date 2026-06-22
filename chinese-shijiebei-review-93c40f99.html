@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>世界杯 · 中国视角下的足球盛会</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #fcfcf9;
+            font-family: 'Georgia', 'Noto Serif SC', 'Times New Roman', serif;
+            color: #2c2c2c;
+            line-height: 1.75;
+            padding: 0 1.5rem;
+        }
+
+        .page {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 3rem 0 4rem;
+        }
+
+        /* hero 横幅 */
+        .hero {
+            text-align: center;
+            padding: 3.5rem 0 2.5rem;
+            border-bottom: 1px solid #e5e0d8;
+        }
+
+        .hero h1 {
+            font-size: 2.6rem;
+            font-weight: 400;
+            letter-spacing: 2px;
+            color: #1f1f1f;
+            margin-bottom: 0.8rem;
+        }
+
+        .hero .sub {
+            font-size: 1rem;
+            color: #7a7670;
+            font-style: italic;
+            letter-spacing: 0.5px;
+        }
+
+        .hero .stripe {
+            display: inline-block;
+            width: 48px;
+            height: 2px;
+            background: #b8a99a;
+            margin: 1.2rem auto 0.8rem;
+        }
+
+        /* 背景说明卡片 */
+        .context-card {
+            background: #f6f3ef;
+            padding: 1.8rem 2rem;
+            margin: 2.8rem 0 2.5rem;
+            border-radius: 0;
+            border-left: 3px solid #b8a99a;
+            font-size: 1rem;
+        }
+
+        .context-card p {
+            margin-bottom: 0.6rem;
+        }
+
+        .context-card p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* 文章段落 */
+        .intro-section {
+            margin: 2.2rem 0;
+        }
+
+        .intro-section h2 {
+            font-size: 1.3rem;
+            font-weight: 500;
+            color: #3a3a3a;
+            margin-bottom: 0.6rem;
+            letter-spacing: 0.3px;
+            border-bottom: 1px solid #efeae3;
+            padding-bottom: 0.25rem;
+        }
+
+        .intro-section p {
+            font-size: 1rem;
+            margin: 0.8rem 0 0.2rem;
+            text-align: justify;
+        }
+
+        .intro-section p + p {
+            margin-top: 0.4rem;
+        }
+
+        /* 突出句子中的链接 */
+        a {
+            color: #8b3c2b;
+            text-decoration: none;
+            border-bottom: 1px dotted #cbb5a8;
+            transition: border-color 0.2s ease;
+        }
+
+        a:hover {
+            border-bottom: 1px solid #8b3c2b;
+        }
+
+        /* 页尾访问提示 */
+        .footer-note {
+            margin-top: 3.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #e5e0d8;
+            text-align: center;
+            font-size: 0.95rem;
+            color: #6b6560;
+        }
+
+        .footer-note p {
+            margin: 0.3rem 0;
+        }
+
+        .footer-note .small-meta {
+            font-size: 0.85rem;
+            color: #94908b;
+        }
+
+        /* 响应式细节 */
+        @media (max-width: 520px) {
+            body {
+                padding: 0 1rem;
+            }
+
+            .page {
+                padding: 2rem 0 3rem;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .context-card {
+                padding: 1.5rem 1.2rem;
+            }
+
+            .intro-section h2 {
+                font-size: 1.1rem;
+            }
+        }
+
+        @media (min-width: 900px) {
+            .page {
+                max-width: 740px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+
+        <!-- 首页横幅 hero -->
+        <div class="hero">
+            <h1>世界杯</h1>
+            <div class="sub">从中国观众的视角，理解四年一度的足球叙事</div>
+            <div class="stripe"></div>
+        </div>
+
+        <!-- 背景说明：为什么需要这个网站 -->
+        <div class="context-card">
+            <p>这是一份安静的信息站点，专门为想快速定位世界杯赛事、赛程、历史与中文社区解读的读者准备。无论你是资深球迷，还是偶尔关注决赛的旁观者，这里都试图提供清晰、克制的线索。</p>
+            <p>网站不追逐瞬时流量，也不堆砌弹窗。它更像一本薄薄的杂志，把关于<span style="border-bottom: 1px dashed #cbb5a8;">世界杯</span>的核心信息整理成可翻阅的篇章。</p>
+        </div>
+
+        <!-- 三段自然介绍 -->
+        <div class="intro-section">
+            <h2>一、它解决什么问题</h2>
+            <p>每到世界杯年份，信息常常淹没在社交媒体的碎片里。你或许只是想确认某一轮小组赛的时间，或者想了解某支球队的历史战绩，却要忍受满屏的广告和无关推送。<a href="https://chinese--shijiebei.com">世界杯</a>这个站点把这些内容单独拿出来，用一种更接近纸质阅读的节奏呈现——没有弹幕，没有自动播放的视频，只有事实、赛历和背景。</p>
+            <p>对于不熟悉英文检索的用户，或者希望看到中文语境下赛事梳理的读者，这里是一个直接的落脚点。</p>
+        </div>
+
+        <div class="intro-section">
+            <h2>二、信息结构上的考虑</h2>
+            <p>站内按「赛事档案」「历届回顾」「赛程与场馆」「中国球迷视角」四个板块组织。每个板块都不追求面面俱到，而是选取那些真正影响比赛走向的节点——比如某届世界杯的规则变化、冷门背后的气候与时差因素，或者转播信号覆盖的区域差异。</p>
+            <p>这种编排方式，是希望让访问者花最少的时间找到自己关心的那部分，而不是在无穷无尽的链接中迷失。</p>
+        </div>
+
+        <div class="intro-section">
+            <h2>三、设计背后的意图</h2>
+            <p>页面的留白和窄栏不是为了时髦，而是为了让注意力更集中。当你阅读关于某场经典比赛的记述时，周围没有闪烁的横幅分散视线。<a href="https://chinese--shijiebei.com">世界杯</a>这个域名本身也暗示了它的立场：做中文世界里一个沉静的足球信息聚合点，不喧哗，但持续更新。</p>
+            <p>世界杯的历史已经有九十多年，每一届都有它独特的政治、技术与文化印记。这个网站希望成为一扇小小的窗户，让路过的人可以停下来，多看两眼，然后带着自己需要的答案离开。</p>
+        </div>
+
+        <!-- 页尾访问提示 -->
+        <div class="footer-note">
+            <p>如果你想从头浏览这些内容，可以从首页的导航开始，或者直接搜索感兴趣的关键词。</p>
+            <p>—— <a href="https://chinese--shijiebei.com">世界杯</a> · 一份杂志式信息页 · 持续整理中 ——</p>
+            <p class="small-meta">没有推送，没有会员，只有足球本身。</p>
+        </div>
+
+    </div>
+</body>
+</html>
